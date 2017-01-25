@@ -15,8 +15,8 @@ var importer = config.importer;
 var exporter = config.exporter;
 var pass = config.pass;
 
-var totalPrice = 100000;
-var salesContract = 'SOME_SECRET';
+var totalPrice = config.totalPrice;
+var salesContract = config.salesContract;
 
 var LcTemplate = require('./LC.js')
 var LcContract = web3.eth.contract(LcTemplate.LC.info.abiDefinition);
