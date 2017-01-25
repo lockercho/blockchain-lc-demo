@@ -1,0 +1,9 @@
+.node-*
+eth-net-intelligence-api
+eth-netstats
+node_modules
+privatechain
+privatedemo
+my_genesis.json
+demo.address
+config.ini
